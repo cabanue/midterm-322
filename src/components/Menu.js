@@ -17,9 +17,11 @@ const Nav = () => {
             <Icon name="game" size="large"></Icon>
           </Menu.Item>
         </Link>
-        <Menu.Item>
-          <Icon name="group" size="large"></Icon>
-        </Menu.Item>
+        <Link to="/contact">
+          <Menu.Item>
+            <Icon name="group" size="large"></Icon>
+          </Menu.Item>
+        </Link>
       </Menu>
     </React.Fragment>
   );

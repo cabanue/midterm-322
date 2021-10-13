@@ -7,14 +7,16 @@ const Nav = () => {
   return (
     <React.Fragment>
       <Menu>
-        <Menu.Item>
-          <Link to="index">
+        <Link to="/">
+          <Menu.Item>
             <Icon name="home" size="large"></Icon>
-          </Link>
-        </Menu.Item>
-        <Menu.Item>
-          <Icon name="game" size="large"></Icon>
-        </Menu.Item>
+          </Menu.Item>
+        </Link>
+        <Link to="/games">
+          <Menu.Item>
+            <Icon name="game" size="large"></Icon>
+          </Menu.Item>
+        </Link>
         <Menu.Item>
           <Icon name="group" size="large"></Icon>
         </Menu.Item>
